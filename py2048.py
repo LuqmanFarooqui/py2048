@@ -6,7 +6,7 @@
 
 import random
 import numpy as np
-from IPython.display import clear_output
+# from IPython.display import clear_output
 import time
 import math
 
@@ -175,7 +175,7 @@ def play_game():
     attempts = 0
     valid_moves = ('w', 'a', 's', 'd', 'W', 'A', 'S', 'D')
     while result == 0:
-        clear_output()
+#         clear_output()
         if invalid_check == 1:
             print("\nInvalid move, enter move again\n")
             invalid_check = 0
