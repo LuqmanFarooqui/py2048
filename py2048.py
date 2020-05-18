@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[45]:
+# In[13]:
 
 
 import random
@@ -144,6 +144,7 @@ def check_win(board, n=5, w=2048):
                         
 def play_game():
     t1 = time.perf_counter()
+    
     try:
         print("Enter board size:\n")
         n = int(input())
@@ -181,6 +182,7 @@ def play_game():
         if restart_check == 1:
             print("\nYou have cleared the board\n")
             board = create_board(n)
+            t1 = time.perf_counter()
             moves_count = 0
             restart_check = 0
         print(board)
@@ -197,6 +199,7 @@ def play_game():
         if moves_count == 0 and player_choice != 'Z' and attempts == 0:
             print("\nYou have the following choices throughout the game:")
             print("\n1. Enter move\n2. Press n to stop\n3. Press r to clear board\n")
+            t1 = time.perf_counter()
         player_choice = input()
         if player_choice in valid_moves:
             attempts = attempts + 1
@@ -218,18 +221,18 @@ def play_game():
             attempts = attempts + 1
         else:
             invalid_check = 1
+
     t2 = time.perf_counter()
     print("\nGame stats:")
     print("Number of valid moves made for current board : ", moves_count)
     print("Number of total moves played throughout the session : ", attempts)
+    
     seconds_spent = t2-t1
     minutes_spent = 0
     if seconds_spent > 60:
         minutes_spent = int(seconds_spent / 60)
         seconds_spent = int(math.remainder(seconds_spent, 60))
-        print ("Time spent throughout the session : ", minutes_spent, " minute(s) and ", seconds_spent, " second(s)")
-    else:
-        print ("Time spent throughout the session : ", minutes_spent, " minute(s) and ", round(seconds_spent), " second(s)")
-
+    print ("Time spent on current board : ", minutes_spent, " minute(s) and ", round(seconds_spent), " second(s)")
+        
 play_game()
 
