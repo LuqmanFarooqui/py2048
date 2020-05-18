@@ -2,7 +2,7 @@
 
 **Description**
 
-This is my 2048 game simulation in Python. Please feel free to let me know your feedback through the comments section. Thanks !
+This is my 2048 game simulation in Python. Please feel free to let me know your feedback through the comments section. Thanks!
 
 **Compatibility**
 
@@ -17,6 +17,7 @@ This code has been developed and tested well in Windows in the Jupyter Notebook 
 ### Game Navigation
 
 First, enter the size of the board. For example, if you want to play on a 3x3 board, enter 3.
+
 Next, enter the winning value, which is the value at which you would win if you add up to it.
 
 *Note: The default board size is 5 and win value is 2048. This is set incase of an invalid entry of either of the two respectively.*
@@ -29,12 +30,13 @@ You will recieve your game stats at the end too !
 **Special Notes:**
 
 > 1. The program will randomly spawn a 2 or a 4 after every valid move if the board size is 5 or above. For values, lesser than 5, it would spawn only one 2.
-> 2. Hidden developer option ! Press capital 'Z' at any point in the game to fill the empty spots of the board with just one click. The spots would be filled randomly with a 2 or a 4 in accordance with the previous rule. This is to test the game overall, but more specifically, the `move(<parameters>)` function.
+> 2. Hidden developer option ! Press capital 'Z' at any point in the game to fill the empty spots of the board with just one entry. The spots would be filled randomly with a 2 or a 4 in accordance with the previous point. This is to test the game overall, but more specifically, the `move(<parameters>)` function.
 
 **Demonstration**
 
 Here's a simple demonstration of the game in .gif format.
-![](py2048demo.gif)
+
+> ![](py2048demo.gif)
 
 
 ```python
