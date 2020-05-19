@@ -2,7 +2,7 @@
 
 **Description**
 
-This is my 2048 game simulation in Python. Please feel free to let me know your feedback through the comments section. To play the original game, [click here](https://2048game.com). Thanks!
+This is my 2048 game simulation in Python. To play the original game, [click here](https://2048game.com). This code can also be used to strenghten some basic concepts of Python for beginners. Do feel free to let me know your feedback through the comments section. Thanks!
 
 **Compatibility**
 
