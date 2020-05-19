@@ -18,7 +18,7 @@ This code has been developed and tested well in Windows in the Jupyter Notebook 
 
 First, enter the size of the board. For example, if you want to play on a 3x3 board, enter 3.
 
-Next, enter the winning value, which is the value at which you would win if you add up to it.
+Next, enter the winning value, which is the value at which you would win if you add up to it. Remember that it should be a power of 2.
 
 *Note: The default board size is 5 and win value is 2048. This is set incase of an invalid entry of either of the two respectively.*
 
