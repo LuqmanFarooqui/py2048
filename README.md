@@ -12,7 +12,7 @@ This code has been developed and tested well in Windows in the Jupyter Notebook 
 
 - If you would like to run the code in a Jupyter Notebook, CoLab, or similiar, download the py2048.ipynb version and run it on your environment of choice.
 - If you would like to run it directly in your terminal, download the py2048.py version and run it from terminal. Note that this has clear_screen() functionality disabled since it does not work in terminal. 
-- If you would like to run it on a mobile device or without any prior installation of python environments, the code will also work well in [Google's CoLab](https://colab.research.google.com/) environment. [Click here](https://colab.research.google.com/drive/1H18pd6iJFDYlfemcnhjYHYhXtovEwU4B?usp=sharing) to view and run my code in the CoLab environment. You may provide your comments there as well.
+- If you would like to run it on an android device's mobile browser or without any prior installation of python environments, the code will also work well in [Google's CoLab](https://colab.research.google.com/) environment. [Click here](https://colab.research.google.com/drive/1H18pd6iJFDYlfemcnhjYHYhXtovEwU4B?usp=sharing) to view and run my code in the CoLab environment. You may provide your comments there as well.
  
 ### Game Navigation
 
