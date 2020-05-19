@@ -22,7 +22,7 @@ Next, enter the winning value, which is the value at which you would win if you 
 
 *Note: The default board size is 5 and win value is 2048. This is set incase of an invalid entry of either of the two respectively.*
 
-Now, you may enter your move. To make a move, press either of the WASD keys, or press 'n' to stop the game or 'r' to clear the board and start over with the same board size and win value. You may do the aforementioned in CAPS LOCK as well.
+Now, you may enter your move. To make a move, press either of the WASD keys, or press 'x' to stop the game, 'r' to clear the board or 'g' to restart the entire game. You may do the aforementioned in CAPS LOCK as well.
 
 The game will stop by itself if the win value is identified in the board or if further valid moves are not possible.
 You will recieve your game stats at the end too !
@@ -30,7 +30,7 @@ You will recieve your game stats at the end too !
 **Special Notes:**
 
 > 1. The program will randomly spawn a 2 or a 4 after every valid move if the board size is 5 or above. For values, lesser than 5, it would spawn only one 2.
-> 2. Hidden developer option ! Press capital 'Z' at any point in the game to fill the empty spots of the board with just one entry. The spots would be filled randomly with a 2 or a 4 in accordance with the previous point. This is to test the game overall, but more specifically, the `move(<parameters>)` function.
+> 2. Hidden developer option ! Press capital 'Z' at any point in the game to fill the empty spots of the board with just one entry. The spots would be filled randomly with a 2 or a 4 in accordance with the previous point. This is to test the game overall, but more specifically, the `move(<parameters>)` function. Note that this will increment the `moves_count` and `attempts` variable by just one irrespective of number of spaces automatically filled by the function.
 
 **Demonstration**
 
